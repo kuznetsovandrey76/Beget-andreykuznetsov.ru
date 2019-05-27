@@ -24,6 +24,9 @@
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item"><a class="nav-link" href="./">О себе</a></li>
                                 <li class="nav-item"><a class="nav-link" href="./education.html">Образование</a></li>
+                                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Уроки</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="./">5 класс</a><a class="dropdown-item" href="./">6 класс</a><a class="dropdown-item" href="./">7 класс</a><a class="dropdown-item" href="./">8 класс</a><a class="dropdown-item" href="./">9 класс</a><a class="dropdown-item" href="./">10 класс</a><a class="dropdown-item" href="./">11 класс</a></div>
+                                </li>
                                 <li class="nav-item"><a class="nav-link text-danger" href="./events.html">Пед.дебют '19</a></li>
                                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Школа</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="./manual.html">Методичка</a><a class="dropdown-item" href="./">Презентации</a><a class="dropdown-item" href="./students.html">Ученикам</a><a class="dropdown-item" href="./plan.html">Расписание</a><a class="dropdown-item" href="./script.html">Сценарии</a>
@@ -46,13 +49,19 @@
             </div>
         </div>
         <h4>Всероссийская олимпиада по физкультуре. Весенний сезон 2019г.</h4>
-        <div class="row popup-olympiad">
-            <div class="col-md-4 col-12 mb-2"><a href="img/olympiad/olympiad_1.jpg"><img class="w-100 mb-2" src="img/olympiad/olympiad_1.jpg"></a></div>
+        <div class="row popup-olympiad mb-3">
+            <div class="col-md-4 col-12 mb-2"><a href="img/olympiad/olympiad_1.jpg"><img class="w-100 mb-2" src="img/olympiad/olympiad_1.jpg" data="olympiad"></a></div>
             <div class="col-md-4 col-12 mb-2"><a href="img/olympiad/olympiad_2.jpg"><img class="w-100 mb-2" src="img/olympiad/olympiad_2.jpg"></a></div>
             <div class="col-md-4 col-12 mb-2"><a href="img/olympiad/olympiad_3.jpg"><img class="w-100 mb-2" src="img/olympiad/olympiad_3.jpg"></a></div>
             <div class="col-md-4 col-12 mb-2"><a href="img/olympiad/olympiad_4.jpg"><img class="w-100 mb-2" src="img/olympiad/olympiad_4.jpg"></a></div>
             <div class="col-md-4 col-12 mb-2"><a href="img/olympiad/olympiad_5.jpg"><img class="w-100 mb-2" src="img/olympiad/olympiad_5.jpg"></a></div>
         </div>
+        <h4>Соревнования</h4>
+        <div class="row popup-race mb-3">
+            <div class="col-md-4 col-12 mb-2"><a href="img/charter_4.jpg"><img class="w-100 mb-2" src="img/charter_4.jpg" data="race"></a></div>
+        </div>
+        <div id="calendar"></div>
+        <p>123</p>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
@@ -60,6 +69,10 @@
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
     <script src="js/plugins/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins/parsley.min.js"></script>
+    <script src="js/plugins/prism.js"></script>
+    <script src="js/plugins/underscore-min.js"></script>
+    <script src="js/plugins/moment.js"></script>
+    <script src="js/plugins/clndr.js"></script>
     <script src="js/main.js"></script>
 </body>
 
